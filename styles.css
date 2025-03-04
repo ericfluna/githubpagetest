@@ -8,8 +8,8 @@
 html {
   display: flex;
   align-items: center;
-  justify-content: center;
-  background-color: #f0f1f6;
+  justify-content: center;background: rgb(34,30,103);
+  background: linear-gradient(90deg, rgba(59, 57, 131, 0.359) 0%, rgba(141,141,203,1) 45%, rgba(210,214,242,1) 100%);
 }
 
 body {
@@ -92,7 +92,7 @@ section {
 article {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 15px;
   border-radius: 20px;
   padding: 20px;
   margin: 10px;
