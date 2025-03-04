@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Eric Luna</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="icon" type="image/svg+xml" href="images/favicon.ico" />
+  </head>
+  <body>
+    <header>
+      <ul class="lista">
+        <li style="gap: 5px">
+          By <b style="text-decoration: underline">Eric Luna</b
+          ><img src="images/favicon.ico" height="30px" />
+        </li>
+        <div style="display: flex; gap: 10px">
+          <li>
+            <b>Contact:</b>
+          </li>
+          <li>
+            <a
+              href="https://drive.google.com/file/d/1bU5ZdTzWGlGkPnprhxfCTjuEpFfUWKXQ/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><img src="images/cv.png" alt="CV" height="25px"
+            /></a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/ericfluna/"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><img src="images/linkedin.png" alt="LinkedIn" height="25px"
+            /></a>
+          </li>
+        </div>
+      </ul>
+    </header>
+    <main>
+      <section>
+        <article>
+          <h1>About me</h1>
+          <hr />
+          <p>
+            Hello! 👋 I am a professional with
+            <b>2 years of experience in the tech sector</b>. I have had the
+            opportunity to work in different areas, including
+            <b
+              >server administration and maintenance, technical support, and the
+              implementation of security solutions</b
+            >.
+          </p>
+
+          <p>
+            🎯 Currently,
+            <b
+              >my goal is to continue expanding my knowledge in the field of
+              cybersecurity</b
+            >
+            and participate in projects that allow me to contribute to
+            strengthening systems and networks for businesses.
+          </p>
+
+          <p>
+            I am always open to discussing new opportunities or collaborating on
+            innovative projects!
+          </p>
+          <h3>Feel free to get in touch! 😊</h3>
+        </article>
+        <article>
+          <h1>Hobbies</h1>
+          <hr />
+          <ul
+            style="
+              display: flex;
+              justify-content: left;
+              align-items: baseline;
+              flex-direction: column;
+              padding-right: 80px;
+              gap: 0px;
+            "
+            class="lista"
+          >
+            <li style="font-size: large; gap: 5px; justify-content: left">
+              <img src="images/gym.png" height="50px" /> Gym
+            </li>
+            <li style="font-size: large; gap: 5px; justify-content: left">
+              <img src="images/reading.png" height="50px" /> Reading
+            </li>
+            <li style="font-size: large; gap: 5px; justify-content: left">
+              <img src="images/games.png" height="50px" /> Videogames
+            </li>
+            <li style="font-size: large; gap: 5px; justify-content: left">
+              <img src="images/soccer.png" height="50px" /> Soccer
+            </li>
+          </ul>
+        </article>
+      </section>
+      <section>
+        <article>
+          <div
+            style="
+              display: flex;
+              justify-content: space-between;
+              align-items: end;
+              cursor: pointer;
+            "
+            onclick="toggleIcon()"
+          >
+            <h1>Experience</h1>
+            <img id="toggleIcon" src="images/up.png" height="30px" />
+          </div>
+
+          <div
+            id="experienceContent"
+            style="display: none; gap: 30px; flex-direction: column"
+          >
+            <hr />
+
+            <div class="experiencia">
+              <h2>SysAdmin</h2>
+
+              <div style="display: flex; align-items: end; gap: 10px">
+                <img src="images/grameimpuls.png" height="25px" />
+                <p>Grameimpuls | January 2024 - January 2025</p>
+              </div>
+              <ul
+                style="
+                  display: flex;
+                  flex-direction: column;
+                  align-items: baseline;
+                  justify-content: baseline;
+                  gap: 0px;
+                  font-size: large;
+                  list-style-position: inside;
+                "
+              >
+                <li>
+                  🔐 <b>Administered network security</b> using
+                  <b>Kaspersky and Sophos</b> to ensure ongoing protection for
+                  all company systems.
+                </li>
+                <li>
+                  🔐 <b>Oversaw user permissions and system access</b>,
+                  maintaining the integrity and security of the technological
+                  infrastructure.
+                </li>
+                <li>
+                  🛠️ Provided <b>remote technical support via TeamViewer</b>,
+                  resolving issues efficiently and promptly from a distance.
+                </li>
+                <li>
+                  💬 Managed <b>communications with vendors and the budget</b>,
+                  ensuring timely procurement of essential resources while
+                  staying within financial constraints.
+                </li>
+                <li>
+                  🛠️
+                  <b
+                    >Performed equipment repairs and streamlined inventory
+                    management</b
+                  >
+                  using Access, minimizing downtime and optimizing resource use.
+                </li>
+                <li>
+                  🔐 Provided <b>IT troubleshooting and technical solutions</b>,
+                  improving the reliability and functionality of internal
+                  systems.
+                </li>
+              </ul>
+            </div>
+
+            <div class="experiencia">
+              <h2>Software Developer</h2>
+
+              <div style="display: flex; align-items: end; gap: 10px">
+                <img src="images/weecover.png" height="25px" />
+                <p>Weecover | October 2022 - March 2023</p>
+              </div>
+              <ul
+                style="
+                  display: flex;
+                  flex-direction: column;
+                  align-items: baseline;
+                  justify-content: baseline;
+                  gap: 0px;
+                  font-size: large;
+                  list-style-position: inside;
+                "
+              >
+                <li>
+                  💻 <b>Developed and managed backend APIs</b> using Java and
+                  Spring Boot.
+                </li>
+                <li>
+                  💻 <b>Created and managed databases</b> using PostgreSQL to
+                  support system functionality.
+                </li>
+                <li>
+                  💬 Employed <b>SCRUM and KANBAN frameworks</b> to streamline
+                  project management and enhance team collaboration.
+                </li>
+                <li>
+                  💻 Worked
+                  <b>collaboratively with the development team on GitHub</b> to
+                  ensure efficient version control and integration.
+                </li>
+                <li>
+                  🎨 Designed and implemented a
+                  <b>user-friendly client dashboard</b> using React in a web
+                  environment.
+                </li>
+              </ul>
+            </div>
+
+            <div class="experiencia">
+              <h2>IT Support</h2>
+
+              <div style="display: flex; align-items: end; gap: 10px">
+                <img src="images/mjc.svg" height="25px" />
+                <p>MJC Asesores | October 2022 - March 2023</p>
+              </div>
+              <ul
+                style="
+                  display: flex;
+                  flex-direction: column;
+                  align-items: baseline;
+                  justify-content: baseline;
+                  gap: 0px;
+                  font-size: large;
+                  list-style-position: inside;
+                "
+              >
+                <li>
+                  🛠️ <b>Configured and installed routers and networks</b> across
+                  various office locations to ensure smooth connectivity.
+                </li>
+                <li>
+                  🛠️ Provided <b>maintenance and repair services</b> for
+                  computer hardware to ensure operational efficiency.
+                </li>
+                <li>
+                  💬 Assisted with
+                  <b
+                    >managing office systems and corporate network
+                    infrastructure</b
+                  >
+                  to support company operations.
+                </li>
+                <li>
+                  🎨 <b>Created and edited corporate visual content</b>,
+                  including images and videos, using OpenShot for social media
+                  marketing.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </article>
+      </section>
+      <section>
+        <article>
+          <div
+            style="
+              display: flex;
+              justify-content: space-between;
+              align-items: end;
+              cursor: pointer;
+            "
+            onclick="toggleIcon2()"
+          >
+            <h1>Studies</h1>
+            <img id="toggleIcon2" src="images/up.png" height="30px" />
+          </div>
+
+          <div
+            id="experienceContent2"
+            style="display: none; gap: 30px; flex-direction: column"
+          >
+            <hr />
+
+            <div class="experiencia">
+              <h2>Bootcamp: Ethical Hacking & Cibersecurity</h2>
+
+              <div style="display: flex; align-items: end; gap: 10px">
+                <p>Fundació Esplai | January 2025 - July 2025</p>
+              </div>
+              <ul
+                style="
+                  display: flex;
+                  flex-direction: column;
+                  align-items: baseline;
+                  justify-content: baseline;
+                  gap: 0px;
+                  font-size: large;
+                  list-style-position: inside;
+                "
+              >
+                <li>
+                  🕵️‍♂️ <b>Ethical hacking and penetration testing</b> to identify
+                  vulnerabilities in web applications and networks.
+                </li>
+                <li>
+                  🔐 <b>Implementation of cybersecurity measures</b> to protect
+                  information systems from external threats, including firewalls
+                  and encryption protocols.
+                </li>
+                <li>
+                  🛡️ <b>Incident response and risk analysis</b>, detecting and
+                  addressing security breaches to mitigate potential damage.
+                </li>
+                <li>
+                  💻 <b>Network monitoring and traffic analysis</b> using tools
+                  such as Wireshark and Nmap to detect unusual activity.
+                </li>
+                <li>
+                  💬 <b>Collaboration in security teams</b> to ensure the proper
+                  implementation of cybersecurity protocols and best practices.
+                </li>
+              </ul>
+            </div>
+            <div class="experiencia">
+              <h2>CFGS: App Development</h2>
+
+              <div style="display: flex; align-items: end; gap: 10px">
+                <p>IES Puig Castellar | September 2021 - June 2023</p>
+              </div>
+              <ul
+                style="
+                  display: flex;
+                  flex-direction: column;
+                  align-items: baseline;
+                  justify-content: baseline;
+                  gap: 0px;
+                  font-size: large;
+                  list-style-position: inside;
+                "
+              >
+                <li>
+                  💻 <b>Development of mobile and desktop applications</b> for
+                  different platforms using tools like JavaFX and Android
+                  Studio.
+                </li>
+                <li>
+                  💻 <b>Object-Oriented Programming (OOP)</b> and development of
+                  advanced functionalities in applications using Java.
+                </li>
+                <li>
+                  💬 <b>Collaborative work</b> using agile methodologies like
+                  SCRUM for project management.
+                </li>
+                <li>
+                  🛠️ <b>Creation and management of databases</b> using tools
+                  like PostgreSQL and MongoDB.
+                </li>
+                <li>
+                  🎨
+                  <b>Designing intuitive and attractive user interfaces</b> to
+                  improve the user experience in mobile and web applications.
+                </li>
+              </ul>
+            </div>
+            <div class="experiencia">
+              <h2>CFGM: Microcomputer Systems and Networks</h2>
+
+              <div style="display: flex; align-items: end; gap: 10px">
+                <p>IES Puig Castellar | September 2019 - June 2021</p>
+              </div>
+              <ul
+                style="
+                  display: flex;
+                  flex-direction: column;
+                  align-items: baseline;
+                  justify-content: baseline;
+                  gap: 0px;
+                  font-size: large;
+                  list-style-position: inside;
+                "
+              >
+                <li>
+                  🛠️
+                  <b>Installation and configuration of operating systems</b> on
+                  both desktop and server computers, using Windows and Linux.
+                </li>
+                <li>
+                  🛠️ <b>Assembly and maintenance of computer equipment</b>,
+                  ensuring proper functionality and optimization for specific
+                  tasks.
+                </li>
+                <li>
+                  💻 <b>Management of local networks (LAN)</b> and configuration
+                  of network devices like routers, switches, and access points
+                  to ensure stable connectivity.
+                </li>
+                <li>
+                  💬 <b>Technical support in companies</b>, providing assistance
+                  in resolving hardware and software issues for internal and
+                  external users.
+                </li>
+                <li>
+                  🔐 <b>Configuration of security measures</b> in networks,
+                  implementing firewalls and antivirus to protect systems from
+                  cyber attacks.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </article>
+      </section>
+    </main>
+    <script>
+      function toggleIcon() {
+        let icon = document.getElementById("toggleIcon");
+        let content = document.getElementById("experienceContent");
+
+        // Alternar la imagen y el contenido
+        if (icon.src.includes("down.png")) {
+          icon.src = "images/up.png"; // Cambiar a la imagen "up"
+          content.style.display = "none"; // Mostrar el contenido
+        } else {
+          icon.src = "images/down.png"; // Volver a "down"
+          content.style.display = "flex"; // Ocultar el contenido
+        }
+      }
+
+      function toggleIcon2() {
+        let icon = document.getElementById("toggleIcon2");
+        let content = document.getElementById("experienceContent2");
+
+        // Alternar la imagen y el contenido
+        if (icon.src.includes("down2.png")) {
+          icon.src = "images/up2.png"; // Cambiar a la imagen "up"
+          content.style.display = "none"; // Mostrar el contenido
+        } else {
+          icon.src = "images/down2.png"; // Volver a "down"
+          content.style.display = "flex"; // Ocultar el contenido
+        }
+      }
+    </script>
+  </body>
+</html>
