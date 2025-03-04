@@ -8,8 +8,8 @@
 html {
   display: flex;
   align-items: center;
-  justify-content: center;background: rgb(34,30,103);
-  background: linear-gradient(90deg, rgba(59, 57, 131, 0.359) 0%, rgba(141,141,203,1) 45%, rgba(210,214,242,1) 100%);
+  justify-content: center;
+  background: #f0f1f6;
 }
 
 body {
