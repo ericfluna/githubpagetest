@@ -25,7 +25,7 @@ header {
   position: fixed;
   margin: auto;
   top: 40px;
-  width: fit-content;
+  width: 400px;
   border-radius: 20px;
   padding: 15px 30px;
   background-color: #515151;
@@ -33,6 +33,20 @@ header {
   border: 1px solid #f0f1f6;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   color: white;
+}
+
+@media (max-width: 500px) {
+  header {
+    width: 90%;
+  }
+
+  header ul {
+    font-size: small;
+  }
+
+  header img {
+    height: 25px;
+  }
 }
 
 ul {
@@ -44,25 +58,22 @@ ul {
   gap: 40px;
 }
 
-.lista li  {
+.lista li {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-
 a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: all 0.3s linear;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s linear;
 }
 
 a:hover {
   transform: translateY(-5px); /* Mueve el artículo 10px hacia arriba */
-
 }
-
 
 main {
   width: 100%;
@@ -71,38 +82,46 @@ main {
 }
 
 section {
-    display: flex;
-    align-items: stretch; /* Esto hace que los artículos se estiren para tener la misma altura */
-    justify-content: space-around;
-    padding-bottom: 5px;
-    height: fit-content;
-  }
-  
-  article {
-    display: flex;
+  display: flex;
+  align-items: stretch; /* Esto hace que los artículos se estiren para tener la misma altura */
+  justify-content: space-around;
+  padding-bottom: 5px;
+  height: fit-content;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 10px;
+  background-color: #ffffff;
+  flex-grow: 1; /* Esto hace que cada artículo crezca para llenar el espacio disponible */
+}
+
+.experiencia {
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  background-color: #ffffff;
+  gap: 5px;
+}
+
+h1 {
+  font-size: clamp(1.5rem, 4vw, 2rem);
+}
+
+p {
+  font-size: clamp(1rem, 3vw, 1.2rem);
+}
+
+h3 {
+  font-size: large;
+}
+
+@media (max-width: 1100px) {
+  section {
     flex-direction: column;
-    gap: 10px;
-    border-radius: 20px;
-    padding: 20px;
-    margin: 10px;
-    background-color: #ffffff;
-    flex-grow: 1; /* Esto hace que cada artículo crezca para llenar el espacio disponible */
   }
-  
-  .experiencia {
-    display: flex;
-    flex-direction: column;
-    border-radius: 20px;
-    background-color: #ffffff;
-    gap: 5px;
-  }
-
-
-  h1{
-    font-size: x-large;
-  }
-
-  h3{
-    font-size: large;
-    
-  }
+}
